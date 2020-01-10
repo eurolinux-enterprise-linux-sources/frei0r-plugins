@@ -1,6 +1,6 @@
 Name:           frei0r-plugins
 Version:        1.3
-Release:        11%{?dist}
+Release:        13%{?dist}
 Summary:        Frei0r - a minimalist plugin API for video effects
 
 Group:          System Environment/Libraries
@@ -75,6 +75,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pkgconfig/frei0r.pc
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.3-13
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.3-12
+- Mass rebuild 2013-12-27
+
 * Wed Jul 17 2013 Matthias Clasen <mclasen@redhat.com> 1.3-11
 - Fix source url
 
